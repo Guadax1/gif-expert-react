@@ -9,7 +9,7 @@ export const GifExpertApp = () => {
 
         const categoriesEvaluation = categories.map( category => category.toLowerCase() );
 
-        if( categoriesEvaluation.includes(newCategory.toLowerCase() ) ) return;
+        if( categoriesEvaluation.includes( newCategory.toLowerCase() ) ) return;
 
         // categories.push('League Of Legens'); //No se recomienda usar ya que el push() muta los objetos
         // setCategories( cat => [ ...cat, 'League Of Legens' ] );
